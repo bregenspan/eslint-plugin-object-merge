@@ -69,10 +69,10 @@ catch potentially unsafe cases where the first argument will be mutated.
     "rules": {
         "object-merge/no-side-effects": [2, {
           // Names of function calls to validate for possible side effects (optional, default shown below)
-          functionNames: ['merge'],
+          "functionNames": ["merge"],
 
           // Names of packages from which functions must be imported in order to be validated (optional, default shown below)
-          packageNames: ['lodash', 'lodash/merge']
+          "packageNames": ["lodash", "lodash/merge"]
         }]
     }
 }
