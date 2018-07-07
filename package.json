@@ -1,5 +1,6 @@
 {
   "name": "eslint-plugin-object-merge",
+  "homepage": "https://github.com/bregenspan/eslint-plugin-object-merge",
   "version": "0.0.1",
   "description": "Rules to enforce side effect-free use of Lodash.merge() and similar object merge methods",
   "keywords": [
