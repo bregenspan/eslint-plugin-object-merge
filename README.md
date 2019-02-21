@@ -8,10 +8,10 @@ Currently only validates the case where `merge()` is imported via an ES6 import 
 
  * `import { merge } from 'lodash';`
  * `import { merge } from 'lodash/merge';`
+ * `import lodash from 'lodash'; /*...*/ lodash.merge(); // Default import`
 
 Unsupported cases:
 
- * `import lodash from 'lodash'; /*...*/ lodash.merge(); // Default import`
  * `const merge = require('lodash/merge'); // CommonJS`
 
 ## Installation
